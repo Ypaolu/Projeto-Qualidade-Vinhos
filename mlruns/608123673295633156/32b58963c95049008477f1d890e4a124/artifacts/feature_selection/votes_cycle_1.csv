@@ -1,0 +1,12 @@
+feature,SelectKBest,RandomForest,RFE,votes,selected
+alcohol,1,1,1,3,True
+sulphates,1,1,1,3,True
+total sulfur dioxide,1,1,1,3,True
+volatile acidity,1,1,1,3,True
+fixed acidity,1,1,0,2,True
+pH,0,1,1,2,True
+chlorides,0,0,1,1,False
+citric acid,1,0,0,1,False
+density,0,0,0,0,False
+free sulfur dioxide,0,0,0,0,False
+residual sugar,0,0,0,0,False

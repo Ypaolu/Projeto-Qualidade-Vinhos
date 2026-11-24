@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "cycle": 1,
+  "training_rows": 407,
+  "selected_features": [
+    "alcohol",
+    "sulphates",
+    "total sulfur dioxide",
+    "volatile acidity",
+    "fixed acidity",
+    "pH"
+  ],
+  "winner": "Ridge",
+  "winner_validation_mae": 0.5475229506181721,
+  "incumbent_validation_mae_before": null,
+  "promoted": true,
+  "results": [
+    {
+      "cycle": 1,
+      "model": "Ridge",
+      "train_rows": 407,
+      "validation_mae": 0.5475229506181721,
+      "validation_rmse": 0.6954533005818725,
+      "selected_features": "alcohol, sulphates, total sulfur dioxide, volatile acidity, fixed acidity, pH",
+      "run_id": "32b58963c95049008477f1d890e4a124",
+      "winner_of_cycle": true,
+      "promoted": true,
+      "incumbent_mae_before": null
+    },
+    {
+      "cycle": 1,
+      "model": "RandomForest",
+      "train_rows": 407,
+      "validation_mae": 0.5494301470588235,
+      "validation_rmse": 0.7174483097797933,
+      "selected_features": "alcohol, sulphates, total sulfur dioxide, volatile acidity, fixed acidity, pH",
+      "run_id": "14797bee095244cd97e50ea1a300233e",
+      "winner_of_cycle": false,
+      "promoted": false,
+      "incumbent_mae_before": null
+    }
+  ]
+}

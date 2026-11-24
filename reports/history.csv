@@ -1,0 +1,3 @@
+cycle,model,train_rows,validation_mae,validation_rmse,selected_features,run_id,winner_of_cycle,promoted,incumbent_mae_before
+1,Ridge,407,0.5475229506181721,0.6954533005818725,"alcohol, sulphates, total sulfur dioxide, volatile acidity, fixed acidity, pH",32b58963c95049008477f1d890e4a124,True,True,
+1,RandomForest,407,0.5494301470588235,0.7174483097797933,"alcohol, sulphates, total sulfur dioxide, volatile acidity, fixed acidity, pH",14797bee095244cd97e50ea1a300233e,False,False,

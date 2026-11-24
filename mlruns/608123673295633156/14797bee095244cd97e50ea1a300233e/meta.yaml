@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Projeto-Qualidade-Vinhos/Projeto-Qualidade-Vinhos/mlruns/608123673295633156/14797bee095244cd97e50ea1a300233e/artifacts
+end_time: 1795563897234
+entry_point_name: ''
+experiment_id: '608123673295633156'
+lifecycle_stage: active
+run_id: 14797bee095244cd97e50ea1a300233e
+run_name: ciclo_1_RandomForest
+run_uuid: 14797bee095244cd97e50ea1a300233e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795563893949
+status: 3
+tags: []
+user_id: runner
