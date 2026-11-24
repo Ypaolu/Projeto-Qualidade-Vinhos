@@ -1,0 +1,24 @@
+QUALIDADE DE VINHOS — MLOPS N3
+
+1. Instalar Python 3.11.
+2. Abrir esta pasta raiz no terminal/VS Code.
+3. Instalar dependências: pip install -r requirements.txt
+4. Abrir notebooks/00_Wine_Quality_N3_Completo.ipynb no VS Code/Jupyter e executar as células em ordem.
+   A execução baixa a base oficial UCI automaticamente na primeira vez.
+   Sem internet: baixar winequality-red.csv da UCI e salvar em data/raw/.
+
+OU executar por linha de comando:
+  python -m src.etl
+  python -m src.pipeline --cycle 1
+  python -m src.pipeline --cycle 2
+  pytest -q
+  mlflow ui --backend-store-uri ./mlruns
+  streamlit run dashboard.py
+
+Arquivos de saída: reports/, models/, mlruns/, evidencias/.
+
+O notebook principal é autossuficiente, desde que tenha os pacotes Python e a base
+CSV. O ZIP contém o projeto operacional completo, incluindo Streamlit e workflow GitHub.
+
+OBS.: Não há MAEs nem capturas fictícias. Execute com a base UCI real.
+GitHub Actions requer envio a um repositório e permissão de escrita; não foi executado aqui.

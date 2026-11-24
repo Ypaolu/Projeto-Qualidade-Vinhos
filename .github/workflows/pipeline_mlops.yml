@@ -1,0 +1,42 @@
+name: Wine Quality N3 - Pipeline MLOps
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "13 12 * * 1" # segundas, 12:13 UTC / 09:13 Brasília (sem horário de verão)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wine-quality-n3
+  cancel-in-progress: false
+
+jobs:
+  train-and-track:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+      - name: Testar funções
+        run: python -m pytest -q
+      - name: Executar próximo lote (quando disponível)
+        run: python -m src.pipeline --cycle auto
+      - name: Persistir resultados do laboratório acadêmico
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw data/processed models reports mlruns
+          if ! git diff --cached --quiet; then
+            git commit -m "MLOps: guardar evidências do ciclo [skip ci]"
+            git push
+          fi

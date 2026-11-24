@@ -1,0 +1,11 @@
+{
+  "dataset_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv",
+  "random_state": 42,
+  "test_size": 0.20,
+  "validation_size_from_dev": 0.25,
+  "k_features_per_method": 6,
+  "minimum_votes": 2,
+  "min_mae_improvement": 0.0,
+  "rf_n_estimators": 200,
+  "ridge_alpha": 1.0
+}

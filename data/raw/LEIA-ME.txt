@@ -1,0 +1,5 @@
+O arquivo oficial winequality-red.csv é baixado automaticamente da UCI na primeira execução.
+Se estiver sem internet, baixe manualmente:
+https://archive.ics.uci.edu/dataset/186/wine+quality
+Salve este CSV sem renomear em: data/raw/winequality-red.csv
+Não utilizar o dataset Wine de classificação do scikit-learn em substituição.
