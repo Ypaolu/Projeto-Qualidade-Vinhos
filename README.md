@@ -1,5 +1,11 @@
 # Qualidade de Vinhos — Regressão com MLOps (N3)
 
+# Integrantes
+- Bruno Miranda Tessilla
+- Endric Mateus Frühauf
+- Nicolas Stringari da Silva
+- Paulo Henrique Vidal Assis de Paula
+
 Projeto acadêmico com base **Wine Quality (vinhos tintos)** da [UCI](https://archive.ics.uci.edu/dataset/186/wine+quality). O alvo `quality` é uma **nota numérica**: o trabalho é de **regressão**, não de classificação.
 
 ## O que foi implementado
