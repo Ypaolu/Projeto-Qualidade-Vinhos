@@ -1,0 +1,44 @@
+{
+  "status": "completed",
+  "cycle": 2,
+  "training_rows": 815,
+  "selected_features": [
+    "alcohol",
+    "sulphates",
+    "total sulfur dioxide",
+    "volatile acidity",
+    "chlorides",
+    "pH"
+  ],
+  "winner": "Ridge",
+  "winner_validation_mae": 0.5365238272888209,
+  "incumbent_validation_mae_before": 0.5475229506181721,
+  "promoted": true,
+  "results": [
+    {
+      "cycle": 2,
+      "model": "Ridge",
+      "train_rows": 815,
+      "validation_mae": 0.5365238272888209,
+      "validation_rmse": 0.6762234518976995,
+      "selected_features": "alcohol, sulphates, total sulfur dioxide, volatile acidity, chlorides, pH",
+      "run_id": "17d4902a6d4343f4b0f72b3ed43fd46a",
+      "winner_of_cycle": true,
+      "promoted": true,
+      "incumbent_mae_before": 0.5475229506181721
+    },
+    {
+      "cycle": 2,
+      "model": "RandomForest",
+      "train_rows": 815,
+      "validation_mae": 0.5392830882352941,
+      "validation_rmse": 0.7000410308352941,
+      "selected_features": "alcohol, sulphates, total sulfur dioxide, volatile acidity, chlorides, pH",
+      "run_id": "2ddf2ffdbb634796bc6eaa6a8f6afc8c",
+      "winner_of_cycle": false,
+      "promoted": false,
+      "incumbent_mae_before": 0.5475229506181721
+    }
+  ],
+  "final_test_mae": 0.502270267466205
+}

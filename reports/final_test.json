@@ -1,0 +1,7 @@
+{
+  "algorithm": "Ridge",
+  "model_promoted_in_cycle": 2,
+  "test_rows": 272,
+  "mae": 0.502270267466205,
+  "rmse": 0.6568775361555597
+}

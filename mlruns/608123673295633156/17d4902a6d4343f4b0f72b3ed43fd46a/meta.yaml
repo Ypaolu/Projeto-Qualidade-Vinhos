@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Projeto-Qualidade-Vinhos/Projeto-Qualidade-Vinhos/mlruns/608123673295633156/17d4902a6d4343f4b0f72b3ed43fd46a/artifacts
+end_time: 1795565009461
+entry_point_name: ''
+experiment_id: '608123673295633156'
+lifecycle_stage: active
+run_id: 17d4902a6d4343f4b0f72b3ed43fd46a
+run_name: ciclo_2_Ridge
+run_uuid: 17d4902a6d4343f4b0f72b3ed43fd46a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795565006480
+status: 3
+tags: []
+user_id: runner

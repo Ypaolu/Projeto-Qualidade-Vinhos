@@ -1,13 +1,13 @@
 {
   "algorithm": "Ridge",
-  "cycle": 1,
-  "validation_mae": 0.5475229506181721,
+  "cycle": 2,
+  "validation_mae": 0.5365238272888209,
   "selected_features": [
     "alcohol",
     "sulphates",
     "total sulfur dioxide",
     "volatile acidity",
-    "fixed acidity",
+    "chlorides",
     "pH"
   ],
   "features": [
@@ -15,10 +15,10 @@
     "sulphates",
     "total sulfur dioxide",
     "volatile acidity",
-    "fixed acidity",
+    "chlorides",
     "pH"
   ],
-  "mlflow_run_id": "32b58963c95049008477f1d890e4a124",
+  "mlflow_run_id": "17d4902a6d4343f4b0f72b3ed43fd46a",
   "dataset_sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
-  "promoted_at_utc": "2026-11-24T23:44:57.236493+00:00"
+  "promoted_at_utc": "2026-11-25T00:03:32.325465+00:00"
 }
