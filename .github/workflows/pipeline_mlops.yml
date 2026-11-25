@@ -3,7 +3,7 @@ name: Wine Quality N3 - Pipeline MLOps
 on:
   workflow_dispatch:
   schedule:
-    - cron: "13 12 * * 1" # segundas, 12:13 UTC / 09:13 Brasília (sem horário de verão)
+    - cron: "20 0 * * 3"
 
 permissions:
   contents: write
